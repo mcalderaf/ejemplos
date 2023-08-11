@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+
 app = FastAPI()
 # creamos una ruta para acceder a un cierrto valor
 @app.get("/")
